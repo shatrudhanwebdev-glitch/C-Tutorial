@@ -4,6 +4,8 @@
 
 int main() {
 
+    //Input (Sum of 2 numbers)
+
     int Num1, Num2;
 
     //Input number from user
