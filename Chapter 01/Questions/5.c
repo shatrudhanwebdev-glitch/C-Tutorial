@@ -6,17 +6,17 @@ int main() {
 
     //Simple Intrest Calculator.
 
-    int principal, rate, time;
-    double SI;
+    int P, R, T;
+    float SI;
 
-    //input from user
-    printf("Enter principal : \nEnter rate : \nEnter time(in year) : ");
-    scanf("%d %d %d", &principal, &rate, &time);
+    //intput from user
+    printf("Enter P : , Enter R : , Enter T(in year) : ");
+    scanf("%d %d %d", &P, &R, &T);
 
     //formula of SI
-    SI = (principal * rate * time) / 100.0;
+    SI = (P * R * T) / 100.0;
 
-    //final output
+    //final result
     printf("Value of SI = %f\n", SI);
 
     return 0;
