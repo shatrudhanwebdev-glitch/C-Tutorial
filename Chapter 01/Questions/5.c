@@ -7,7 +7,7 @@ int main() {
     //Simple Intrest Calculator.
 
     int P, R, T;
-    float SI;
+    double SI;
 
     //intput from user
     printf("Enter P : , Enter R : , Enter T(in year) : ");
